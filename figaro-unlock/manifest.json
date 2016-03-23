@@ -12,7 +12,9 @@
     {
       "matches": [
         "http://*.lefigaro.fr/*",
-        "https://*.lefigaro.fr/*"
+        "https://*.lefigaro.fr/*",
+        "http://*.lepoint.fr/*",
+        "https://*.lepoint.fr/*"
       ],
       "css": [
         "data/style/content.css"
@@ -23,6 +25,8 @@
   ],
   "permissions": [
     "http://*.lefigaro.fr/*",
-    "https://*.lefigaro.fr/*"
+    "https://*.lefigaro.fr/*",
+    "http://*.lepoint.fr/*",
+    "https://*.lepoint.fr/*"
   ]
 }
