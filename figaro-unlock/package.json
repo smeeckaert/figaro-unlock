@@ -11,9 +11,6 @@
   },
   "icon": "resource://figaro-unlock/data/images/icon-48.png",
   "permissions": {
-    "cross-domain-content": [
-      "http://*.*"
-    ]
   },
   "license": "MIT"
 }
