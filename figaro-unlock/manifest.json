@@ -14,12 +14,15 @@
         "http://*.lefigaro.fr/*",
         "https://*.lefigaro.fr/*",
         "http://*.lepoint.fr/*",
-        "https://*.lepoint.fr/*"
+        "https://*.lepoint.fr/*",
+        "http://*.marieclaire.fr/*",
+        "https://*.marieclaire.fr/*"
       ],
       "css": [
         "data/style/content.css"
       ],
       "js": [
+        "data/script/content.js"
       ]
     }
   ],
@@ -27,6 +30,8 @@
     "http://*.lefigaro.fr/*",
     "https://*.lefigaro.fr/*",
     "http://*.lepoint.fr/*",
-    "https://*.lepoint.fr/*"
+    "https://*.lepoint.fr/*",
+    "http://*.marieclaire.fr/*",
+    "https://*.marieclaire.fr/*"
   ]
 }
