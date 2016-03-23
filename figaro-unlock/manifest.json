@@ -18,7 +18,9 @@
         "http://*.marieclaire.fr/*",
         "https://*.marieclaire.fr/*",
         "http://*.lequipe.fr/*",
-        "https://*.lequipe.fr/*"
+        "https://*.lequipe.fr/*",
+        "http://*.lexpress.fr/*",
+        "https://*.lexpress.fr/*"
       ],
       "css": [
         "data/style/content.css"
@@ -37,6 +39,8 @@
     "http://*.marieclaire.fr/*",
     "https://*.marieclaire.fr/*",
     "http://*.lequipe.fr/*",
-    "https://*.lequipe.fr/*"
+    "https://*.lequipe.fr/*",
+    "http://*.lexpress.fr/*",
+    "https://*.lexpress.fr/*"
   ]
 }

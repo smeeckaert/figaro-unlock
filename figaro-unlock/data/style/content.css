@@ -13,3 +13,7 @@ a[href$="publicites-sur-le-figarofr.php"] {
 .adBlockNotificationOverlay {
     display: none !important;
 }
+
+.gam_info.gam_info_s12 {
+    display: none;
+}
