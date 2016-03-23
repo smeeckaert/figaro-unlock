@@ -16,14 +16,17 @@
         "http://*.lepoint.fr/*",
         "https://*.lepoint.fr/*",
         "http://*.marieclaire.fr/*",
-        "https://*.marieclaire.fr/*"
+        "https://*.marieclaire.fr/*",
+        "http://*.lequipe.fr/*",
+        "https://*.lequipe.fr/*"
       ],
       "css": [
         "data/style/content.css"
       ],
       "js": [
         "data/script/content.js"
-      ]
+      ],
+      "run_at": "document_start"
     }
   ],
   "permissions": [
@@ -32,6 +35,8 @@
     "http://*.lepoint.fr/*",
     "https://*.lepoint.fr/*",
     "http://*.marieclaire.fr/*",
-    "https://*.marieclaire.fr/*"
+    "https://*.marieclaire.fr/*",
+    "http://*.lequipe.fr/*",
+    "https://*.lequipe.fr/*"
   ]
 }
