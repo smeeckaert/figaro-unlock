@@ -1,0 +1,19 @@
+{
+  "title": "Figaro Unlock",
+  "name": "figarounlock",
+  "version": "1.0.1",
+  "description": "Enleve les bannieres anti bloqueur de publicite du Figaro / Le Point / Marie Claire / L'Equipe / L'Express",
+  "main": "firefox/index.js",
+  "author": "Martin Smeeckaert",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "icon": "resource://figaro-unlock/data/images/icon-48.png",
+  "permissions": {
+    "cross-domain-content": [
+      "http://*.*"
+    ]
+  },
+  "license": "MIT"
+}
