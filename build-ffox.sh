@@ -1,4 +1,4 @@
 #!/bin/sh
 cd figaro-unlock
-jpm xpi
+/usr/bin/jpm xpi
 mv *.xpi ../build-ffox/.
