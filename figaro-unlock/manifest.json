@@ -31,7 +31,13 @@
       "run_at": "document_start"
     }
   ],
+  "background": {
+    "scripts": ["data/script/bgp.js"]
+  },
   "permissions": [
+	"webRequest",
+	"webRequestBlocking",
+	"background",
     "http://*.lefigaro.fr/*",
     "https://*.lefigaro.fr/*",
     "http://*.lepoint.fr/*",
@@ -41,6 +47,8 @@
     "http://*.lequipe.fr/*",
     "https://*.lequipe.fr/*",
     "http://*.lexpress.fr/*",
-    "https://*.lexpress.fr/*"
+    "https://*.lexpress.fr/*",
+    "http://*.lemonde.fr/*",
+    "https://*.lemonde.fr/*"
   ]
 }
