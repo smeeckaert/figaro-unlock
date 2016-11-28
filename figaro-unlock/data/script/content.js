@@ -14,6 +14,13 @@ function cleanAds() {
             divsAdds[i].remove();
         }
     }
+
+    divsTutorial = document.querySelectorAll('.ab-tutorial');
+    if (divsTutorial && divsTutorial.length) {
+        for (i = 0; i < divsTutorial.length; i++) {
+            divsTutorial[i].parentElement.parentElement.remove();
+        }
+    }
 }
 
 var observer = new MutationObserver(function () {
